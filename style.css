@@ -1,0 +1,56 @@
+@charset "utf-8";
+body{
+  background: #e6f6ff;
+}
+
+main{
+  background-color: white;
+  width: 320px;
+  margin:20px auto 0;
+  text-align: center;
+  padding: 20px;
+
+}
+
+p{
+  border: 2px;
+  margin:0;
+  background-color: lightgray;
+  padding: 32px;
+  font-size: 40px;
+  font-family: 'Courier New';
+  border-radius: 4px;
+  
+}
+
+button{
+  all:unset;
+  width: 100%;
+  border: 2px;
+  margin-top: 15px;
+  padding: 10px 0;
+  color:white; 
+  background-color: orange;
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+  
+}
+
+button:hover{
+  opacity:0.6;
+}
+
+button:active{
+  opacity: .4;
+}
+
+.inactive{
+  background-color: lightgray;
+  color: black;
+  cursor: default; 
+}
+
+.inactive:hover{
+  opacity:1;
+}
